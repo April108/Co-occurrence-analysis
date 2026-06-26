@@ -18,7 +18,7 @@ Prepare data for downstream analysis.
 Raw count matrix and metadata files.
 
 **Output:**  
-Cleaned and normalized dataframe.
+Summarized dataframe.
 
 ---
 
@@ -28,16 +28,14 @@ Cleaned and normalized dataframe.
 Analyze pairwise relationships between features (e.g., genes, proteins).
 
 **Main Steps:**
-- Calculate correlation coefficients (e.g., Spearman).
-- Adjust p-values for multiple testing.
-- Filter significant associations based on thresholds.
-- Generate co-occurrence network data.
+- Generate co-occurrence data.
+- GO/KEGG enrichment.
 
 **Input:**  
-Processed dataframe.
+Summarized dataframe.
 
 **Output:**  
-Summarized dataframe for network visualization.
+Enrichment result for visualization.
 
 ---
 
