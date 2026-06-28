@@ -1,6 +1,8 @@
 library(clusterProfiler)
 library(org.Mm.eg.db)  #小鼠
 library(pathview)
+library(dplyr)
+library(tidyverse)
 
 # 读取共现统计表
 joint_table <- read.csv("joint_table.csv")
